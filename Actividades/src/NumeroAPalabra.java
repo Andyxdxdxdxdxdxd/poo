@@ -12,7 +12,7 @@ public class NumeroAPalabra{
         Numero obj1=new Numero(teclado.nextInt());
         System.out.println(obj1.convertirNumero());
     }
-    
+
 }
 
 class Numero {

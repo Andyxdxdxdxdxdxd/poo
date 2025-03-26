@@ -1,7 +1,11 @@
+import java.util.Scanner;
+
 public class MainNumero {
     public static void main(String[] args){
 
-        Numero obj1=new Numero(1104); // Constructor(int)
+        Scanner teclado=new Scanner(System.in);
+
+        Numero obj1=new Numero(teclado.nextInt());
         System.out.println(obj1.convertirNumero());
     }
 }

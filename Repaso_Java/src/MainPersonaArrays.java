@@ -35,7 +35,7 @@ public class MainPersonaArrays {
             lista.add(frase);
         }
 
-        for(String s:lista){ //iterador
+        for(String s:lista){ //iterador: recorre cada uno de los elemento de la lista
             System.out.println(s);
         }
     }
